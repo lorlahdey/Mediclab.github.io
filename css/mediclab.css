@@ -59,19 +59,6 @@ header .content {
 	background-color: #ddd;
 }
 
-.section2 > .container{
-	/*color: #0052ff;*/
-}
-
-
-
-/*.department-icon2{
-	display: block;
-	width: 40%;
-	height: auto;
-	margin: auto;
-}*/
-
 .department {
 	background-color: #fff;
 	color: #0052ff;
@@ -304,14 +291,19 @@ textarea {
 	padding: 10px 20px;
 }
 
+		/*map*/
+.section8 .maps {
+	width: 100%;
+}
+
 
 		/*Contact us*/
-.section8 .contact-icon {
+.section9 .contact-icon {
 	width: 10%;
 	height: auto;
 }
 
-.section8 span {
+.section9 span {
 	color: #0052ff;
 }
 
@@ -326,7 +318,4 @@ footer {
 footer .footer-icon {
 	width: 20%;
 	height: auto;
-}
-footer li{
-	margin-right: 0px;
 }
