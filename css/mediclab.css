@@ -7,10 +7,10 @@ body {
 }
 
 header .content {
-	background: url("../images/Rectangle2.jpg") no-repeat;
+	background: url("../images/Rectangle2.jpg") no-repeat center;
     background-size: cover;
     height: 900px;
-    width: 100%;
+    position: relative;
 }
 
 .overlay {
@@ -35,8 +35,14 @@ header .content {
 }
 
 .slidder-content {
-	margin-top: 25%;
+	text-align: center;
+  	position: absolute;
+ 	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;
 }
+
 .slidder-content button {
 	background-color: #0052ff;
 	color: #fff;
@@ -44,7 +50,6 @@ header .content {
 	outline: none;
 	padding: 10px 20px;
 }
-
 
 .section1 h4 {
 	color:  #0052ff;
@@ -60,6 +65,7 @@ header .content {
 }
 
 .department {
+	box-shadow: 5px 2px 15px 0 rgba(0,0,0,.5);
 	background-color: #fff;
 	color: #0052ff;
 }
@@ -72,9 +78,6 @@ header .content {
 }
 
 .department .department-icon2 {
-	display: none;
-}
-.department .img2 {
 	display: none;
 }
 
@@ -124,6 +127,7 @@ header .content {
 	display: none;
 }
 
+
 .service2 {
 	border: 1px solid #0052ff;
 }
@@ -148,6 +152,7 @@ header .content {
 .service2:hover .img1{
 	display: none;
 }
+
 
 .service3 {
 	border: 1px solid #0052ff;
@@ -222,23 +227,21 @@ header .content {
 	background: url("../images/Rectangle41.png") no-repeat;
     background-size: cover;
     height: 515px;
-    width: 100%;
+    position: relative;
 }
 
 .overlay2 {
 	background-color: rgba(0, 82, 255, 0.3);
-	height: 515px;
+	height: 100%;
 }
 
 .testimonial {
-	margin: auto;		
-}
-.testimonial2 {
-	margin: auto;		
-}
-
-.testimonial .elipse {
-	margin: 3% 0% 5% 43%;
+	text-align: center;
+  	position: absolute;
+ 	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;	
 }
 
 .stars {
@@ -246,21 +249,21 @@ header .content {
 	height: auto;
 }
 
-.testimonial2 span {
+.testimonial span {
 	color: #0052ff;
 }
 
 
+
 		/*form*/
-.section7 img{
+.section7 .Professional{
 	width: 100%;
 	height: auto;
 }
 
-.section7 fieldset{
+/*.section7 fieldset{
 	border: 1px solid #0052ff;
-}
-
+}*/
 
 [type=text] {
 	border: 1px solid #0052ff;
@@ -291,11 +294,11 @@ textarea {
 	padding: 10px 20px;
 }
 
+
 		/*map*/
 .section8 .maps {
 	width: 100%;
 }
-
 
 		/*Contact us*/
 .section9 .contact-icon {
@@ -316,6 +319,10 @@ footer {
 }
 
 footer .footer-icon {
-	width: 20%;
+	width: 30%;
 	height: auto;
+}
+footer li{
+	list-style: none;
+	display: inline-block;
 }
